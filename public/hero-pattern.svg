@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30,5 C35,5 40,10 40,15 C40,20 35,25 30,25 C25,25 20,20 20,15 C20,10 25,5 30,5 Z" fill="#96703d" fill-opacity="0.1" transform="rotate(45, 30, 15)"/>
+        <path d="M15,20 C20,20 25,25 25,30 C25,35 20,40 15,40 C10,40 5,35 5,30 C5,25 10,20 15,20 Z" fill="#4d8c3f" fill-opacity="0.1" transform="rotate(-15, 15, 30)"/>
+        <path d="M45,20 C50,20 55,25 55,30 C55,35 50,40 45,40 C40,40 35,35 35,30 C35,25 40,20 45,20 Z" fill="#4d8c3f" fill-opacity="0.1" transform="rotate(15, 45, 30)"/>
+        <path d="M30,35 C35,35 40,40 40,45 C40,50 35,55 30,55 C25,55 20,50 20,45 C20,40 25,35 30,35 Z" fill="#96703d" fill-opacity="0.1" transform="rotate(-45, 30, 45)"/>
+    </g>
+</svg> 
