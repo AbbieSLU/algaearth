@@ -26,7 +26,7 @@ export default function Home() {
         <ProductsSection />
         <CtaSection />
       </main>
-      <Footer />
+   
     </>
   );
 }

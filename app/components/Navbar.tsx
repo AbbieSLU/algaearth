@@ -18,10 +18,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#products", label: "Products" },
-    { href: "#process", label: "Process" },
-    { href: "#contact", label: "Contact" }
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/team", label: "Team" },
+  
+    { href: "/contact", label: "Contact" }
   ];
 
   return (
@@ -56,9 +57,12 @@ export default function Navbar() {
             
             <div className="h-8 mx-6 w-px bg-teal-700/50"></div>
             
-            <button className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 hover:from-algae-500 hover:to-teal-500 text-sm font-medium">
+            <Link 
+              href="/contact"
+              className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 hover:from-algae-500 hover:to-teal-500 text-sm font-medium"
+            >
               Get Started
-            </button>
+            </Link>
           </div>
           
           <button 
@@ -94,9 +98,13 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 hover:from-algae-500 hover:to-teal-500 text-sm font-medium mt-2">
+            <Link 
+              href="/contact"
+              onClick={() => setMobileMenuOpen(false)}
+              className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 hover:from-algae-500 hover:to-teal-500 text-sm font-medium mt-2"
+            >
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
