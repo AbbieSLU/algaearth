@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CtaSection() {
   return (
     <section id="contact" className="py-12 sm:py-16 lg:py-24 bg-gradient-to-br from-ocean-900 via-teal-900 to-ocean-900 text-white relative overflow-hidden">
@@ -14,12 +16,18 @@ export default function CtaSection() {
             Join leading brands in creating a sustainable future with our innovative algae-based packaging solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-            <button className="w-full sm:w-auto bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <Link 
+              href="/contact" 
+              className="w-full sm:w-auto bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
               Contact Sales
-            </button>
-            <button className="w-full sm:w-auto border-2 border-teal-300 px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-300/10 transition-all duration-700">
+            </Link>
+            <Link 
+              href="/contact" 
+              className="w-full sm:w-auto border-2 border-teal-300 px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-300/10 transition-all duration-700"
+            >
               Request Demo
-            </button>
+            </Link>
           </div>
         </div>
       </div>
