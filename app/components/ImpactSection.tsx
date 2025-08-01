@@ -78,9 +78,7 @@ export default function ImpactSection() {
               <p className="text-sm sm:text-base lg:text-lg text-ocean-100 mb-6 sm:mb-8 leading-relaxed">
                 We prioritize local sourcing, low-energy processing, and circular design principles to reduce carbon emissions and plastic dependency across the supply chain.
               </p>
-              <button className="w-full sm:w-auto bg-algae-600/90 hover:bg-algae-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                View Sustainability Report
-              </button>
+         
             </div>
           </div>
         </div>

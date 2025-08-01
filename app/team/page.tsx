@@ -108,25 +108,25 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
             {[
               {
-                name: "Marcus Rodriguez",
-                role: "Chief Technology Officer",
-                image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-                bio: "Former Tesla engineer leading our bioprocessing technology and manufacturing innovation.",
-                expertise: ["Bioprocessing", "Manufacturing", "R&D"]
+                name: "Dr. Scott Sell",
+                role: "Technical Advisor",
+                image: "/Dr.Scott.jpg",
+                bio: "Dr. Scott is currently associate dean of undergraduate education and professor of biomedical engineering at Saint Louis University. He earned his doctorate in biomedical engineering at Virginia Commonwealth University.",
+                expertise: ["Tissue Engineering", "Regenerative Medicine", "Polymeric Scaffolds"]
               },
               {
-                name: "Dr. Priya Patel",
-                role: "Head of Research",
-                image: "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg",
-                bio: "PhD in Materials Science with breakthrough patents in biodegradable polymer development.",
-                expertise: ["Materials Science", "Innovation", "Sustainability"]
+                name: "Gwen Hogan",
+                role: "Engineer and Consumer Researcher",
+                image: "/Gwen.jpg",
+                bio: "Gwen is a senior at Saint Louis University, pursuing a degree in Biomedical Engineering. She serves as a research assistant at AlgaEarth, contributing to laboratory experiments and consumer insight initiatives focused on sustainable and degradable packaging solutions.",
+                expertise: ["Biomedical Engineering", "Consumer Research", "Sustainable Packaging"]
               },
               {
-                name: "James Wilson",
-                role: "VP of Sustainability",
-                image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
-                bio: "Environmental policy expert ensuring our processes meet the highest sustainability standards.",
-                expertise: ["Environmental Policy", "Compliance", "Strategy"]
+                name: "Ivette M. Alvarez",
+                role: "Strategic Visual and Digital Illustration Consultant",
+                image: "/Ivette.jpg",
+                bio: "Ivette is a content illustrator and designer with over 20 years of experience in visual arts and digital design. Currently a Ph.D. candidate in Child Development at Erikson Institute/Loyola University, she brings a deep understanding of healing and human growth to her work.",
+                expertise: ["Visual Arts", "Digital Design", "Content Illustration"]
               }
             ].map((member, index) => (
               <div
@@ -146,7 +146,7 @@ export default function TeamPage() {
                         src={member.image}
                         alt={member.name}
                         fill
-                        className="object-cover brightness-110"
+                        className="object-contain brightness-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-ocean-950/60 via-transparent to-transparent"></div>
                     </div>
