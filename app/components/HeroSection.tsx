@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -28,15 +29,30 @@ export default function HeroSection() {
               Packaging the Future, <span className="text-algae-300">Naturally</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 text-ocean-100 leading-relaxed animate-slide-up delay-100">
-              Say goodbye to plastic. AlgaEarth creates biodegradable, compostable packaging made from algae and other regenerative materials — safe for people, safe for the planet.
+            Say goodbye to
+microplastics.
+AlgaEarth is creating
+biodegradable
+packaging comprised
+of algae and other
+biodegradable
+materials – safe for
+the consumers, safe
+for the environment.​
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-slide-up delay-200">
-              <button className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl hover:shadow-algae-600/20 w-full sm:w-auto">
-                Explore Products
-              </button>
-              <button className="border-2 border-teal-300 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-300/10 transition-all duration-700 w-full sm:w-auto">
+              <Link 
+                href="/contact"
+                className="bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl hover:shadow-algae-600/20 w-full sm:w-auto text-center"
+              >
+                Contact Us
+              </Link>
+              <Link 
+                href="/about#story"
+                className="border-2 border-teal-300 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-300/10 transition-all duration-700 w-full sm:w-auto text-center"
+              >
                 Our Mission
-              </button>
+              </Link>
             </div>
           </div>
         </div>

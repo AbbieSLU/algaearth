@@ -124,7 +124,7 @@ export default function AboutPage() {
             <div className="relative reveal-on-scroll">
               <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+                  src="/algaearth-mission.png"
                   alt="Sustainable Laboratory"
                   fill
                   className="object-cover"

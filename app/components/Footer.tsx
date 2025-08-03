@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
               </a>
               <a
-                href="mailto:contact@algaearth.com"
+                href="mailto:algaearth@gmail.com"
                 className="group"
                 aria-label="Send us an email"
               >
@@ -101,12 +101,12 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
             <div className="space-y-3">
               <p className="text-ocean-100">
-                <a href="mailto:contact@algaearth.com" className="hover:text-algae-300 transition-colors">
-                  contact@algaearth.com
+                <a href="mailto:algaearth@gmail.com" className="hover:text-algae-300 transition-colors">
+                  algaearth@gmail.com
                 </a>
               </p>
               <p className="text-ocean-100">
-                San Francisco, CA
+                Saint Louis, MO
               </p>
             </div>
           </div>
