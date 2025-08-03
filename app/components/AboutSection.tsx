@@ -13,19 +13,17 @@ export default function AboutSection() {
               A Smarter Way to Package
             </h2>
             <p className="text-base sm:text-lg text-neutral-600 mb-4 sm:mb-6 leading-relaxed">
-              AlgaEarth is on a mission to replace wasteful, petroleum-based packaging with bio-based alternatives that actually disappear. Our algae-based materials are renewable, non-toxic, and compostable — designed for circularity from day one.
+            AlgaEarth is on a mission to replace wasteful, plastic-based packaging with biodegradable alternatives that give back to the earth. Our material portfolio
             </p>
             <p className="text-base sm:text-lg text-neutral-600 mb-6 sm:mb-8 leading-relaxed">
               Born from a belief that sustainability should be functional, affordable, and beautiful, we partner with food producers, grocers, and eco-conscious brands to reduce single-use waste at the source.
             </p>
-            <button className="w-full sm:w-auto bg-teal-600 text-white px-6 py-3 rounded-md text-base sm:text-lg font-semibold hover:bg-teal-700 transition-all duration-700 shadow-md hover:shadow-lg">
-              Learn About Our Process
-            </button>
+      
           </div>
           <div className="relative order-1 md:order-2 mb-8 md:mb-0 px-4 sm:px-6 lg:px-8">
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl reveal-on-scroll">
               <Image
-                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69"
+                src="/algaearth-package.png"
                 alt="Innovative Algae Technology"
                 fill
                 className="object-cover"
@@ -40,7 +38,7 @@ export default function AboutSection() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-ocean-800">Innovation</h3>
               </div>
-              <p className="text-sm sm:text-base text-ocean-600">Patented bioprocessing technology converts algae into versatile packaging materials.</p>
+              <p className="text-sm sm:text-base text-ocean-600">Our technology converts algae into versatile packaging materials. </p>
             </div>
           </div>
         </div>
