@@ -2,18 +2,18 @@ export default function ImpactSection() {
   const stats = [
     {
       icon: "🌱",
-      title: "100% Compostable",
+      title: "Compostable",
       description: "Breaks down fully in soil or compost — leaving no microplastics behind."
     },
     {
       icon: "💧",
-      title: "50% Less Water",
+      title: "Less Water",
       description: "Compared to the production of traditional paper or bioplastic packaging."
     },
     {
       icon: "🌎",
       title: "Regenerative Sourcing",
-      description: "Made from fast-growing algae and agricultural byproducts — never trees or fossil fuels."
+      description: "Made from fast-growing algae and agricultural byproducts."
     }
   ];
 
@@ -76,7 +76,7 @@ export default function ImpactSection() {
 
             <div className="max-w-3xl mx-auto text-center reveal-on-scroll px-4">
               <p className="text-sm sm:text-base lg:text-lg text-ocean-100 mb-6 sm:mb-8 leading-relaxed">
-                We prioritize local sourcing, low-energy processing, and circular design principles to reduce carbon emissions and plastic dependency across the supply chain.
+              We prioritize local sourcing, low-energy processing, and circular design principles.
               </p>
          
             </div>

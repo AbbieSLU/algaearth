@@ -34,7 +34,7 @@ export default function AboutPage() {
       <section className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/3735245/pexels-photo-3735245.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
+            src="https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg"
             alt="Algae Research Lab"
             fill
             className="object-cover brightness-[0.4]"

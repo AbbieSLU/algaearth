@@ -20,14 +20,9 @@ export default function CtaSection() {
               href="/contact" 
               className="w-full sm:w-auto bg-gradient-to-r from-algae-600 to-teal-600 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-all duration-700 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Contact Sales
+              Contact Us
             </Link>
-            <Link 
-              href="/contact" 
-              className="w-full sm:w-auto border-2 border-teal-300 px-6 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-300/10 transition-all duration-700"
-            >
-              Request Demo
-            </Link>
+      
           </div>
         </div>
       </div>

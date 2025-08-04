@@ -22,7 +22,7 @@ export default function FeaturesSection() {
         </svg>
       ),
       title: "Heat Resistant",
-      description: "Withstands temperatures up to 220°F, making it perfect for hot foods and liquids while maintaining structural integrity."
+      description: "Aiming to develop a product that can withstand high temperatures, making it ideal for hot foods and liquids."
     },
     {
       icon: (
@@ -42,7 +42,7 @@ export default function FeaturesSection() {
         </svg>
       ),
       title: "Lightweight",
-      description: "30% lighter than traditional alternatives, significantly reducing transportation emissions and carbon footprint."
+      description: "Lighter than traditional alternatives, significantly reducing transportation emissions and carbon footprint."
     },
     {
       icon: (
@@ -67,7 +67,7 @@ export default function FeaturesSection() {
         </svg>
       ),
       title: "Customizable",
-      description: "Adaptable to various shapes, sizes, and colors. Our solutions can be tailored to match your brand identity perfectly."
+      description: "Tailorable to various shapes, sizes, and colors. Our solutions can be tailored to match your brand."
     }
   ];
 

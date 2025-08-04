@@ -76,7 +76,7 @@ export default function TeamPage() {
                   </div>
                   <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Abigail Avila, Ph.D.</h2>
                   <p className="text-lg text-ocean-100 mb-8 leading-relaxed">
-                    A purpose-led innovator with a passion for sustainable solutions, Dr. Avila combines her expertise in biotechnology and environmental science to lead AlgaEarth's mission of revolutionizing eco-friendly packaging. Her vision drives our commitment to creating a more sustainable future.
+                  A purpose-led innovator with a passion for sustainable solutions, Dr. Avila combines her expertise in biomedical engineering and biomaterials to lead AlgaEarth's mission of revolutionizing eco-friendly packaging. Her vision drives our commitment to creating a more sustainable future.
                   </p>
                   <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8">
                     {["Biotechnology", "Sustainable Innovation", "Environmental Science"].map((skill, index) => (
@@ -89,7 +89,7 @@ export default function TeamPage() {
                     ))}
                   </div>
                   <a
-                    href="https://linkedin.com/in/abigail-avila"
+                    href="https://www.linkedin.com/in/abigail-avila-bme/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 text-algae-400 hover:text-algae-300 transition-colors"
@@ -112,21 +112,24 @@ export default function TeamPage() {
                 role: "Technical Advisor",
                 image: "/Dr.Scott.jpg",
                 bio: "Dr. Scott is currently associate dean of undergraduate education and professor of biomedical engineering at Saint Louis University. He earned his doctorate in biomedical engineering at Virginia Commonwealth University.",
-                expertise: ["Tissue Engineering", "Regenerative Medicine", "Polymeric Scaffolds"]
+                expertise: ["Tissue Engineering", "Regenerative Medicine", "Polymeric Scaffolds"],
+                linkedin: "https://www.linkedin.com/in/scott-sell-529a3750/"
               },
               {
                 name: "Gwen Hogan",
                 role: "Engineer and Consumer Researcher",
                 image: "/Gwen.jpg",
                 bio: "Gwen is a senior at Saint Louis University, pursuing a degree in Biomedical Engineering. She serves as a research assistant at AlgaEarth, contributing to laboratory experiments and consumer insight initiatives focused on sustainable and degradable packaging solutions.",
-                expertise: ["Biomedical Engineering", "Consumer Research", "Sustainable Packaging"]
+                expertise: ["Biomedical Engineering", "Consumer Research", "Sustainable Packaging"],
+                linkedin: "https://www.linkedin.com/in/gweneth-hogan-750686314/"
               },
               {
                 name: "Ivette M. Alvarez",
                 role: "Strategic Visual and Digital Illustration Consultant",
                 image: "/Ivette.jpg",
                 bio: "Ivette is a content illustrator and designer with over 20 years of experience in visual arts and digital design. Currently a Ph.D. candidate in Child Development at Erikson Institute/Loyola University, she brings a deep understanding of healing and human growth to her work.",
-                expertise: ["Visual Arts", "Digital Design", "Content Illustration"]
+                expertise: ["Visual Arts", "Digital Design", "Content Illustration"],
+                linkedin: "https://www.linkedin.com/in/ivetteguad/"
               }
             ].map((member, index) => (
               <div
@@ -172,7 +175,7 @@ export default function TeamPage() {
                       </div>
 
                       <a
-                        href="https://linkedin.com"
+                        href={member.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 text-algae-400 hover:text-algae-300 transition-colors text-sm"
@@ -212,7 +215,7 @@ export default function TeamPage() {
               We're always looking for passionate individuals who want to make a difference in sustainable packaging innovation.
             </p>
             <a
-              href="mailto:careers@algaearth.com"
+              href="mailto:algaearth@gmail.com"
               className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-algae-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 group"
             >
               <span>Join Our Team</span>
