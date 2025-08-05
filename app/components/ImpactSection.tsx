@@ -3,7 +3,7 @@ export default function ImpactSection() {
     {
       icon: "🌱",
       title: "Compostable",
-      description: "Breaks down fully in soil or compost — leaving no microplastics behind."
+      description: "Biodegradable, breaks down fully leaving no microplastics behind."
     },
     {
       icon: "💧",
