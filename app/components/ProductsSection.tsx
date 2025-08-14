@@ -11,21 +11,21 @@ export default function ProductsSection() {
       name: "EcoFlex Containers",
       description: "Revolutionary flexible packaging that adapts to your product's shape while maintaining strength and durability.",
       features: ["Fully biodegradable", "Custom shapes", "Moisture resistant"],
-      image: "/products/eco-flex.webp",
+      image: "/products/eco_flex.jpg",
       color: "from-teal-400 to-algae-500"
     },
     {
       name: "AquaShield Wraps",
       description: "Water-resistant, breathable wrapping solutions that keep products fresh while protecting the environment.",
       features: ["Breathable material", "Water resistant", "Extended shelf life"],
-      image: "/products/aqua-shield.webp",
+      image: "https://images.pexels.com/photos/10763771/pexels-photo-10763771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       color: "from-ocean-400 to-teal-500"
     },
     {
       name: "BioForm Trays",
       description: "Sturdy, heat-resistant trays perfect for food service and retail packaging needs.",
       features: ["Heat resistant", "Stackable design", "Multiple sizes"],
-      image: "/products/bio-form.webp",
+      image: "/products/trays.jpg",
       color: "from-algae-400 to-emerald-500"
     }
   ];
@@ -61,7 +61,7 @@ export default function ProductsSection() {
                   <div className="relative w-full h-full">
                     <div className={`absolute inset-0 bg-gradient-to-br opacity-20 rounded-xl sm:rounded-2xl ${product.color}`}></div>
                     <Image
-                      src="https://images.pexels.com/photos/10763771/pexels-photo-10763771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      src={product.image}
                       alt={product.name}
                       fill
                       className="object-fill p-0"

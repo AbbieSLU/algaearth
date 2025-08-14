@@ -2,7 +2,7 @@ export default function ImpactSection() {
   const stats = [
     {
       icon: "🌱",
-      title: "Compostable",
+      title: "Biodegradable",
       description: "Biodegradable, breaks down fully leaving no microplastics behind."
     },
     {

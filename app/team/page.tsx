@@ -72,7 +72,7 @@ export default function TeamPage() {
 
                 <div className="text-center lg:text-left">
                   <div className="inline-block px-4 py-2 bg-algae-500/10 rounded-full text-algae-300 text-sm font-semibold mb-6">
-                    Founder & CEO
+                    Founder
                   </div>
                   <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Abigail Avila, Ph.D.</h2>
                   <p className="text-lg text-ocean-100 mb-8 leading-relaxed">
