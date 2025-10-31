@@ -215,7 +215,7 @@ export default function TeamPage() {
               We're always looking for passionate individuals who want to make a difference in sustainable packaging innovation.
             </p>
             <a
-              href="mailto:algaearth@gmail.com"
+              href="mailto:together@algaearth.me"
               className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-algae-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-algae-600/20 group"
             >
               <span>Join Our Team</span>
